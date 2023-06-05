@@ -8,11 +8,17 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
+import { OperatoriComponent } from './operatori/operatori.component';
+import { ServiziComponent } from './servizi/servizi.component';
+import { MezziComponent } from './mezzi/mezzi.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    OperatoriComponent,
+    ServiziComponent,
+    MezziComponent
   ],
   imports: [
     BrowserModule,
