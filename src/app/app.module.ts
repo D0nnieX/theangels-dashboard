@@ -11,6 +11,7 @@ import { MatCardModule } from '@angular/material/card';
 import { OperatoriComponent } from './operatori/operatori.component';
 import { ServiziComponent } from './servizi/servizi.component';
 import { MezziComponent } from './mezzi/mezzi.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MezziComponent } from './mezzi/mezzi.component';
     ToolbarComponent,
     OperatoriComponent,
     ServiziComponent,
-    MezziComponent
+    MezziComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
