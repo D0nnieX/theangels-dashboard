@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-operatori',
   templateUrl: './operatori.component.html',
