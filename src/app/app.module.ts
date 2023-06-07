@@ -12,6 +12,8 @@ import { OperatoriComponent } from './operatori/operatori.component';
 import { ServiziComponent } from './servizi/servizi.component';
 import { MezziComponent } from './mezzi/mezzi.component';
 import { HomeComponent } from './home/home.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 @NgModule({
   declarations: [
@@ -30,12 +32,14 @@ import { HomeComponent } from './home/home.component';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
+    MatExpansionModule,
   ],
   exports: [
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
